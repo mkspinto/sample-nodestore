@@ -6,7 +6,7 @@ const router = express.Router();
 const route = router.get('/', (req, res, next) => {
     res.status(200).send({
         title: "Node Store API",
-        version: "2.0.0"
+        version: "3.0.0"
     });
 });
 
